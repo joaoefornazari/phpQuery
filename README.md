@@ -20,3 +20,7 @@ You create it inputting the HTML item **type** you're creating (such as ```h2```
 It has *get* and *set* methods as OOP requires, so you can get the attributes array and the content quite easily.
 
 To render it on the browser, every ```DOM_Element``` has a function ```constructHTML()``` where it returns a String ```<type attr="value">content</type>```.
+
+## Contribute
+
+Feel free to add or contribute to this project.
