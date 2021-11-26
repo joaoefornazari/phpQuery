@@ -23,4 +23,15 @@ To render it on the browser, every ```DOM_Element``` has a function ```construct
 
 ## Contribute
 
-Feel free to add or contribute to this project.
+### Testing
+
+Run XAMPP, so it will run PHP on your local machine. (Don't have it? Install [XAMPP](https://www.apachefriends.org/pt_br/download.html)!)
+Store this project insied *htdocs* folder (usually on C:\xampp on Windows. Dunno how it is on Mac or Linux)
+
+Open localhost on your browser and put */phpQueryTest.php* in the end of the URL.
+It will show a test HTML document I've made to show the *phpQuery* working.
+
+### Editing
+
+You can edit *phpQuery.php* to edit the classes I did, and edit *phpContent.php* to test its behavior.
+*IMPORTANT: Use Ctrl+F5 to update the page, since that this command reloads all the resources.*
