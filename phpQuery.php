@@ -22,15 +22,15 @@
 				$this->type = $type;
 			}
 
-			public function addProp($propName, $value) {
-				array_combine($this->propList, [$propName, $value]);
+			public function setProperties($propList) {
+				$this->propList = $propList;
 			}
 
 			public function getPropValue($propName) {
 				for ($i = 0; $i < count($this->propList); $i += 1) {
-						if (strcmp($this->propList[$i][0], $propName) == 0) {
-								return $this->propList[$i][1];
-						}
+					if (strcmp($this->propList[$i][0], $propName) == 0) {
+							return $this->propList[$i][1];
+					}
 				}
 			}
 
@@ -51,6 +51,7 @@
 
 			public function setContent($content) {
 				$this->content = $content;
+				return $this;
 			}
 
 			# Pode ser que precise ser sobrescrita em alguns casos, como img.
